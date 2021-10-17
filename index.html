@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/script-weather.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="title">
+            <a href="/index.html">Weather App</a>
+        </div>
+        <div class="navbar-links">
+            <a href="#" id="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul id="menu">
+                <li><a href="/index.html" class="weather-app-link">Bugün</a></li>
+                <li><a href="/weekly.html" class="weather-app-link">Haftalık</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h3 id="location">İstanbul</h3>
+        <div class="display">
+            <h2>Bugün</h2>
+            <img id="weatherIcon" src="" alt="">
+            <h3 class="weatherInfo">Sıcaklık:</h3>
+            <h3 class="humidity">Nem:</h3>
+            <h3 class="windInfo">Rüzgar Hızı:</h3>
+            <h3 class="sunrise">Gün doğumu:</h3>
+            <h3 class="sunset">Gün batımı:</h3>
+        </div>
+    </main>
+</body>
+
+</html>
